@@ -1,0 +1,10 @@
+D:\mycodes\demo3>git commit -m "new demo has been added"
+[main fbd6111] new demo has been added
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+D:\mycodes\demo3>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
