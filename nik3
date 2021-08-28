@@ -1,3 +1,29 @@
+D:\mycodes>cd demo3
+
+D:\mycodes\demo3>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\mycodes\demo3>git add README.md
+
+D:\mycodes\demo3>git add README.md
+
+D:\mycodes\demo3>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
 D:\mycodes\demo3>git commit -m "new demo has been added"
 [main fbd6111] new demo has been added
  1 file changed, 7 insertions(+), 1 deletion(-)
@@ -8,3 +34,60 @@ Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+
+D:\mycodes\demo3>git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 319 bytes | 319.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nikhilchinn/demo3.git
+   a37674d..fbd6111  main -> main
+
+D:\mycodes\demo3>cd..
+
+D:\mycodes>cd demo2
+The system cannot find the path specified.
+
+D:\mycodes>cd demo
+
+D:\mycodes\demo>cd demo2
+
+D:\mycodes\demo\demo2>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nik3
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\mycodes\demo\demo2>git add nik3
+
+D:\mycodes\demo\demo2>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   nik3
+
+
+D:\mycodes\demo\demo2>git commit -m "new demo has been added3"
+[main 7ebbd55] new demo has been added3
+ 1 file changed, 10 insertions(+)
+ create mode 100644 nik3
+
+D:\mycodes\demo\demo2>git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 515 bytes | 257.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Nikhilchinn/demo2.git
+   ddea637..7ebbd55  main -> main
+
+D:\mycodes\demo\demo2>git clone url
